@@ -1,0 +1,50 @@
+﻿@model List<CasoPracticoBLL.Dtos.CitaDto>
+
+@{
+    ViewData["Title"] = "Citas";
+}
+
+<h2>Citas</h2>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success">@TempData["Mensaje"]</div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<p>
+    <a class="btn btn-primary" asp-action="Crear">Crear Cita</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Cliente</th>
+            <th>Vehículo</th>
+            <th>Fecha</th>
+            <th>Estado</th>
+            <th>Observaciones</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.NombreCliente</td>
+                <td>@c.PlacaVehiculo</td>
+                <td>@c.Fecha.ToShortDateString()</td>
+                <td>@c.Estado</td>
+                <td>@c.Observaciones</td>
+                <td>
+                    <a class="btn btn-sm btn-warning" asp-action="Editar" asp-route-id="@c.Id">Editar</a>
+                    <a class="btn btn-sm btn-danger" asp-action="Eliminar" asp-route-id="@c.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,46 @@
+﻿@model CasoPracticoBLL.Dtos.CitaDto
+
+@{
+    ViewData["Title"] = ViewData["Title"] ?? "Cita";
+    string action = ViewData["Action"]?.ToString() ?? "Crear";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="@action" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label class="form-label">Cliente</label>
+        <select asp-for="ClienteId" asp-items="ViewBag.Clientes" class="form-select"></select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Vehículo</label>
+        <select asp-for="VehiculoId" asp-items="ViewBag.Vehiculos" class="form-select"></select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Fecha" class="form-label"></label>
+        <input asp-for="Fecha" type="datetime-local" class="form-control" />
+        <span asp-validation-for="Fecha" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Estado" class="form-label"></label>
+        <input asp-for="Estado" class="form-control" />
+        <span asp-validation-for="Estado" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Observaciones" class="form-label"></label>
+        <textarea asp-for="Observaciones" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

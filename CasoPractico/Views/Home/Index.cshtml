@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Panel Principal";
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4 text-center">Panel de Gestión Lavado de Autos</h1>
+
+    <div class="row text-center g-4">
+
+        <!-- Gestión de Clientes -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Clientes</h5>
+                    <p class="card-text">Registrar, editar, eliminar y listar clientes.</p>
+                    <a href="@Url.Action("Index", "Cliente")" class="btn btn-primary">Ir a Clientes</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gestión de Vehículos -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Vehículos</h5>
+                    <p class="card-text">Registrar, editar, eliminar vehículos y enlazarlos a clientes.</p>
+                    <a href="@Url.Action("Index", "Vehiculo")" class="btn btn-primary">Ir a Vehículos</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gestión de Citas -->
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Citas de Lavado</h5>
+                    <p class="card-text">Registrar citas, cambiar estado y ver lista de atenciones.</p>
+                    <a href="@Url.Action("Index", "Cita")" class="btn btn-primary">Ir a Citas</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

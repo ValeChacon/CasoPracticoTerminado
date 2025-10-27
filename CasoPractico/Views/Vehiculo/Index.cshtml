@@ -1,0 +1,50 @@
+﻿@model List<CasoPracticoBLL.Dtos.VehiculoDto>
+
+@{
+    ViewData["Title"] = "Vehículos";
+}
+
+<h2>Vehículos</h2>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success">@TempData["Mensaje"]</div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<p>
+    <a class="btn btn-primary" asp-action="Crear">Crear Vehículo</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Placa</th>
+            <th>Color</th>
+            <th>Cliente</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var v in Model)
+        {
+            <tr>
+                <td>@v.Marca</td>
+                <td>@v.Modelo</td>
+                <td>@v.Placa</td>
+                <td>@v.Color</td>
+                <td>@v.NombreCliente</td>
+                <td>
+                    <a class="btn btn-sm btn-warning" asp-action="Editar" asp-route-id="@v.Id">Editar</a>
+                    <a class="btn btn-sm btn-danger" asp-action="Eliminar" asp-route-id="@v.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

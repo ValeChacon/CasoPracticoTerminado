@@ -1,0 +1,14 @@
+C:\Users\valed\Desktop\CasoPracticoDAL\bin\Debug\net8.0\CasoPracticoDAL.deps.json
+C:\Users\valed\Desktop\CasoPracticoDAL\bin\Debug\net8.0\CasoPracticoDAL.runtimeconfig.json
+C:\Users\valed\Desktop\CasoPracticoDAL\bin\Debug\net8.0\CasoPracticoDAL.dll
+C:\Users\valed\Desktop\CasoPracticoDAL\bin\Debug\net8.0\CasoPracticoDAL.pdb
+C:\Users\valed\Desktop\CasoPracticoDAL\obj\Debug\net8.0\CasoPracticoDAL.csproj.AssemblyReference.cache
+C:\Users\valed\Desktop\CasoPracticoDAL\obj\Debug\net8.0\CasoPracticoDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valed\Desktop\CasoPracticoDAL\obj\Debug\net8.0\CasoPracticoDAL.AssemblyInfoInputs.cache
+C:\Users\valed\Desktop\CasoPracticoDAL\obj\Debug\net8.0\CasoPracticoDAL.AssemblyInfo.cs
+C:\Users\valed\Desktop\CasoPracticoDAL\obj\Debug\net8.0\CasoPracticoDAL.csproj.CoreCompileInputs.cache
+C:\Users\valed\Desktop\CasoPracticoDAL\obj\Debug\net8.0\CasoPracticoDAL.dll
+C:\Users\valed\Desktop\CasoPracticoDAL\obj\Debug\net8.0\refint\CasoPracticoDAL.dll
+C:\Users\valed\Desktop\CasoPracticoDAL\obj\Debug\net8.0\CasoPracticoDAL.pdb
+C:\Users\valed\Desktop\CasoPracticoDAL\obj\Debug\net8.0\CasoPracticoDAL.genruntimeconfig.cache
+C:\Users\valed\Desktop\CasoPracticoDAL\obj\Debug\net8.0\ref\CasoPracticoDAL.dll
