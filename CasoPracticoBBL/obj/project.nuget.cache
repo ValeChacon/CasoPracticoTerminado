@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J3d7K3c0kD4=",
+  "dgSpecHash": "eVx+N+J13+g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\valed\\Desktop\\CasoPracticoBBL\\CasoPracticoBLL.csproj",
+  "projectFilePath": "C:\\Users\\valed\\Documents\\GitHub\\CasoPracticoTerminado\\CasoPracticoBBL\\CasoPracticoBLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\valed\\.nuget\\packages\\automapper\\15.1.0\\automapper.15.1.0.nupkg.sha512",
     "C:\\Users\\valed\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

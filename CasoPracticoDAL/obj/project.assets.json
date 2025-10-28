@@ -4728,11 +4728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\valed\\Desktop\\CasoPracticoDAL\\CasoPracticoDAL.csproj",
+      "projectUniqueName": "C:\\Users\\valed\\Documents\\GitHub\\CasoPracticoTerminado\\CasoPracticoDAL\\CasoPracticoDAL.csproj",
       "projectName": "CasoPracticoDAL",
-      "projectPath": "C:\\Users\\valed\\Desktop\\CasoPracticoDAL\\CasoPracticoDAL.csproj",
+      "projectPath": "C:\\Users\\valed\\Documents\\GitHub\\CasoPracticoTerminado\\CasoPracticoDAL\\CasoPracticoDAL.csproj",
       "packagesPath": "C:\\Users\\valed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\valed\\Desktop\\CasoPracticoDAL\\obj\\",
+      "outputPath": "C:\\Users\\valed\\Documents\\GitHub\\CasoPracticoTerminado\\CasoPracticoDAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

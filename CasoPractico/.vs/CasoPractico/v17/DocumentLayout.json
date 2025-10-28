@@ -1,27 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\valed\\Desktop\\CasoPractico\\",
+  "WorkspaceRootPath": "C:\\Users\\valed\\Documents\\GitHub\\CasoPracticoTerminado\\CasoPractico\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0F25227-2038-49F6-8236-02CA74BCCC71}|..\\CasoPracticoBBL\\CasoPracticoBLL.csproj|c:\\users\\valed\\desktop\\casopracticobbl\\servicios\\vehiculoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7233748F-C33B-41BA-A299-5B7D54830DB8}|..\\CasoPracticoDAL\\CasoPracticoDAL.csproj|c:\\users\\valed\\desktop\\casopracticodal\\repositorios\\vehiculorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7233748F-C33B-41BA-A299-5B7D54830DB8}|..\\CasoPracticoDAL\\CasoPracticoDAL.csproj|c:\\users\\valed\\desktop\\casopracticodal\\repositorios\\ivehiculorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0B1B806-644B-406B-A2BA-85D2C4E12B77}|CasoPractico.csproj|c:\\users\\valed\\desktop\\casopractico\\views\\cita\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0B1B806-644B-406B-A2BA-85D2C4E12B77}|CasoPractico.csproj|solutionrelative:views\\cita\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0B1B806-644B-406B-A2BA-85D2C4E12B77}|CasoPractico.csproj|c:\\users\\valed\\desktop\\casopractico\\views\\cita\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0B1B806-644B-406B-A2BA-85D2C4E12B77}|CasoPractico.csproj|solutionrelative:views\\cita\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0B1B806-644B-406B-A2BA-85D2C4E12B77}|CasoPractico.csproj|c:\\users\\valed\\desktop\\casopractico\\views\\cita\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0B1B806-644B-406B-A2BA-85D2C4E12B77}|CasoPractico.csproj|solutionrelative:views\\cita\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D0B1B806-644B-406B-A2BA-85D2C4E12B77}|CasoPractico.csproj|c:\\users\\valed\\documents\\github\\casopracticoterminado\\casopractico\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D0B1B806-644B-406B-A2BA-85D2C4E12B77}|CasoPractico.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,79 +39,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VehiculoServicio.cs",
-              "DocumentMoniker": "C:\\Users\\valed\\Desktop\\CasoPracticoBBL\\Servicios\\VehiculoServicio.cs",
-              "RelativeDocumentMoniker": "..\\CasoPracticoBBL\\Servicios\\VehiculoServicio.cs",
-              "ToolTip": "C:\\Users\\valed\\Desktop\\CasoPracticoBBL\\Servicios\\VehiculoServicio.cs",
-              "RelativeToolTip": "..\\CasoPracticoBBL\\Servicios\\VehiculoServicio.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAmwHQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T02:00:23.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VehiculoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\valed\\Desktop\\CasoPracticoDAL\\Repositorios\\VehiculoRepositorio.cs",
-              "RelativeDocumentMoniker": "..\\CasoPracticoDAL\\Repositorios\\VehiculoRepositorio.cs",
-              "ToolTip": "C:\\Users\\valed\\Desktop\\CasoPracticoDAL\\Repositorios\\VehiculoRepositorio.cs",
-              "RelativeToolTip": "..\\CasoPracticoDAL\\Repositorios\\VehiculoRepositorio.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAwEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T01:59:47.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IVehiculoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\valed\\Desktop\\CasoPracticoDAL\\Repositorios\\IVehiculoRepositorio.cs",
-              "RelativeDocumentMoniker": "..\\CasoPracticoDAL\\Repositorios\\IVehiculoRepositorio.cs",
-              "ToolTip": "C:\\Users\\valed\\Desktop\\CasoPracticoDAL\\Repositorios\\IVehiculoRepositorio.cs",
-              "RelativeToolTip": "..\\CasoPracticoDAL\\Repositorios\\IVehiculoRepositorio.cs",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\valed\\Documents\\GitHub\\CasoPracticoTerminado\\CasoPractico\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\valed\\Documents\\GitHub\\CasoPracticoTerminado\\CasoPractico\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T01:59:45.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Crear.cshtml",
-              "DocumentMoniker": "C:\\Users\\valed\\Desktop\\CasoPractico\\Views\\Cita\\Crear.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cita\\Crear.cshtml",
-              "ToolTip": "C:\\Users\\valed\\Desktop\\CasoPractico\\Views\\Cita\\Crear.cshtml",
-              "RelativeToolTip": "Views\\Cita\\Crear.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T01:57:11.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\valed\\Desktop\\CasoPractico\\Views\\Cita\\Editar.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cita\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\valed\\Desktop\\CasoPractico\\Views\\Cita\\Editar.cshtml",
-              "RelativeToolTip": "Views\\Cita\\Editar.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T01:57:07.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\valed\\Desktop\\CasoPractico\\Views\\Cita\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cita\\Index.cshtml",
-              "ToolTip": "C:\\Users\\valed\\Desktop\\CasoPractico\\Views\\Cita\\Index.cshtml",
-              "RelativeToolTip": "Views\\Cita\\Index.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-27T01:56:25.898Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-27T23:00:44.227Z",
               "EditorCaption": ""
             }
           ]
