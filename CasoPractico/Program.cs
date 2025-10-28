@@ -15,7 +15,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<LavadoAutosContexto>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection"),
-        sqlOptions => sqlOptions.MigrationsAssembly("CasoPracticoDAL") // IMPORTANTE
+        sqlOptions => sqlOptions.MigrationsAssembly("CasoPracticoDAL")
     )
 );
 

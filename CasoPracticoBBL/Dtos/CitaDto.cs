@@ -8,8 +8,6 @@
         public int VehiculoId { get; set; }
         public string PlacaVehiculo { get; set; } = string.Empty;
         public string Observaciones { get; set; }
-
-        // Fecha unificada
         public DateTime Fecha { get; set; }
 
         public string Estado { get; set; } = "Ingresada";

@@ -9,8 +9,6 @@ namespace CasoPracticoDAL.Repositorios
     {
         private readonly LavadoAutosContexto _context;
         public ClienteRepositorio(LavadoAutosContexto context) => _context = context;
-
-        // Devuelve List<Cliente> para coincidir con la interfaz
         public async Task<List<Cliente>> ListarAsync() =>
             await _context.Clientes.Include(c => c.Vehiculos).ToListAsync();
 
@@ -40,8 +38,6 @@ namespace CasoPracticoDAL.Repositorios
             await _context.SaveChangesAsync();
             return true;
         }
-
-        // Nuevo método para buscar por identificación única
         public async Task<Cliente?> BuscarPorIdentificacionAsync(string identificacion)
         {
             return await _context.Clientes

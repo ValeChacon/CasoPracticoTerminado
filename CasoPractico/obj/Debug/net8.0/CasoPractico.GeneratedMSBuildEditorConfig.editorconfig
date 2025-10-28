@@ -17,89 +17,89 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CasoPractico
 build_property.RootNamespace = CasoPractico
-build_property.ProjectDir = C:\Users\valed\Documents\GitHub\CasoPracticoTerminado\CasoPractico\
+build_property.ProjectDir = C:\Users\valed\Desktop\CasoPracticoTerminado\CasoPractico\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\valed\Documents\GitHub\CasoPracticoTerminado\CasoPractico
+build_property.MSBuildProjectDirectory = C:\Users\valed\Desktop\CasoPracticoTerminado\CasoPractico
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Cita/Crear.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Cita/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YVxDcmVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Cita/Editar.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Cita/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YVxFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Cita/Index.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Cita/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Cita/_CitaModal.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Cita/_CitaModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0YVxfQ2l0YU1vZGFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Cliente/Crear.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Cliente/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDcmVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Cliente/Editar.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Cliente/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Cliente/Index.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Cliente/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Cliente/_ClienteModal.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Cliente/_ClienteModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxfQ2xpZW50ZU1vZGFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Home/Index.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Home/Privacy.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Shared/Error.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Vehiculo/Crear.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Vehiculo/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9cQ3JlYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Vehiculo/Editar.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Vehiculo/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9cRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Vehiculo/Index.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Vehiculo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Vehiculo/_VehiculoModal.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Vehiculo/_VehiculoModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWN1bG9cX1ZlaGljdWxvTW9kYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/_ViewImports.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/_ViewStart.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/valed/Documents/GitHub/CasoPracticoTerminado/CasoPractico/Views/Shared/_Layout.cshtml]
+[C:/Users/valed/Desktop/CasoPracticoTerminado/CasoPractico/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-mjy6hx5hvg

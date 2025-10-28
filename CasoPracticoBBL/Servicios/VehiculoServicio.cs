@@ -82,7 +82,7 @@ namespace CasoPractico.BLL.Servicios
             return new CustomResponse<VehiculoDto>(dto);
         }
 
-        // Actualizar vehículo (solución al problema de tracking)
+        // Actualizar vehículo
         public async Task<CustomResponse<VehiculoDto>> ActualizarVehiculoAsync(VehiculoDto dto)
         {
             // Obtener el vehículo existente desde el repositorio

@@ -2,7 +2,7 @@
 using CasoPracticoBLL.Dtos;
 using CasoPracticoBLL.Interfaces;
 using CasoPracticoDAL.Repositorios;
-using CasoPracticoDAL.Entidades; // <- AÑADIDO
+using CasoPracticoDAL.Entidades;
 
 
 namespace Casopractico.BLL.Servicios
@@ -39,7 +39,7 @@ namespace Casopractico.BLL.Servicios
                     VehiculoId = c.VehiculoId,
                     NombreCliente = cliente?.Nombre ?? "",
                     PlacaVehiculo = vehiculo?.Placa ?? "",
-                    Fecha = c.Fecha, // ✅ unificado
+                    Fecha = c.Fecha,
                     Estado = c.Estado
                 });
             }
@@ -63,7 +63,7 @@ namespace Casopractico.BLL.Servicios
                 VehiculoId = c.VehiculoId,
                 NombreCliente = cliente?.Nombre ?? "",
                 PlacaVehiculo = vehiculo?.Placa ?? "",
-                Fecha = c.Fecha, // ✅ unificado
+                Fecha = c.Fecha,
                 Estado = c.Estado
             };
 
@@ -76,7 +76,7 @@ namespace Casopractico.BLL.Servicios
             {
                 ClienteId = dto.ClienteId,
                 VehiculoId = dto.VehiculoId,
-                Fecha = dto.Fecha, // ✅ unificado
+                Fecha = dto.Fecha,
                 Estado = dto.Estado ?? "Ingresada"
             };
 

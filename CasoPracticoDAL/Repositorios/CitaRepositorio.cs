@@ -13,7 +13,6 @@ namespace CasoPracticoDAL.Repositorios
             _contexto = contexto;
         }
 
-        // ✅ Listar todas las citas con relaciones
         public async Task<IEnumerable<Cita>> ListarAsync()
         {
             return await _contexto.Citas
@@ -22,7 +21,6 @@ namespace CasoPracticoDAL.Repositorios
                 .ToListAsync();
         }
 
-        // ✅ Obtener cita por ID
         public async Task<Cita?> ObtenerPorIdAsync(int id)
         {
             return await _contexto.Citas
@@ -31,21 +29,18 @@ namespace CasoPracticoDAL.Repositorios
                 .FirstOrDefaultAsync(c => c.Id == id);
         }
 
-        // ✅ Registrar nueva cita
         public async Task<bool> RegistrarAsync(Cita cita)
         {
             await _contexto.Citas.AddAsync(cita);
             return await _contexto.SaveChangesAsync() > 0;
         }
 
-        // ✅ Editar cita existente
         public async Task<bool> EditarAsync(Cita cita)
         {
             var existente = await _contexto.Citas.FindAsync(cita.Id);
             if (existente == null)
                 return false;
 
-            // Actualizar campos
             existente.Fecha = cita.Fecha;
             existente.Estado = cita.Estado;
             existente.Observaciones = cita.Observaciones;
@@ -55,7 +50,6 @@ namespace CasoPracticoDAL.Repositorios
             return await _contexto.SaveChangesAsync() > 0;
         }
 
-        // ✅ Eliminar cita
         public async Task<bool> EliminarAsync(int id)
         {
             var cita = await _contexto.Citas.FindAsync(id);

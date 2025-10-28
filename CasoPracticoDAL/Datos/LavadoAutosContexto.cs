@@ -19,9 +19,7 @@ namespace Casopractico.DAL.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // ===========================
-            // CONFIGURACIONES CLIENTE
-            // ===========================
+            // Cliente
             modelBuilder.Entity<Cliente>(entity =>
             {
                 entity.HasKey(c => c.Id);
@@ -34,16 +32,14 @@ namespace Casopractico.DAL.Data
                       .IsRequired()
                       .HasMaxLength(50);
 
-                // Relación Cliente -> Vehículos (1:N)
+                // Relación Cliente -> Vehículos
                 entity.HasMany(c => c.Vehiculos)
                       .WithOne(v => v.Cliente)
                       .HasForeignKey(v => v.ClienteId)
                       .OnDelete(DeleteBehavior.Cascade);
             });
 
-            // ===========================
-            // CONFIGURACIONES VEHÍCULO
-            // ===========================
+            // Vehiculo
             modelBuilder.Entity<Vehiculo>(entity =>
             {
                 entity.HasKey(v => v.Id);
@@ -55,16 +51,14 @@ namespace Casopractico.DAL.Data
                       .IsRequired()
                       .HasMaxLength(20);
 
-                // Relación Vehículo -> Citas (1:N)
+                // Relación Vehículo -> Citas
                 entity.HasMany(v => v.Citas)
                       .WithOne(c => c.Vehiculo)
                       .HasForeignKey(c => c.VehiculoId)
                       .OnDelete(DeleteBehavior.Restrict);
             });
 
-            // ===========================
-            // CONFIGURACIONES CITA
-            // ===========================
+            // Cita
             modelBuilder.Entity<Cita>(entity =>
             {
                 entity.HasKey(c => c.Id);
@@ -79,13 +73,13 @@ namespace Casopractico.DAL.Data
                 entity.Property(c => c.Observaciones)
                       .HasMaxLength(250);
 
-                // Relación Cita -> Cliente (N:1)
+                // Relación Cita -> Cliente
                 entity.HasOne(c => c.Cliente)
                       .WithMany()
                       .HasForeignKey(c => c.ClienteId)
                       .OnDelete(DeleteBehavior.Restrict);
 
-                // Relación Cita -> Vehículo (N:1)
+                // Relación Cita -> Vehículo
                 entity.HasOne(c => c.Vehiculo)
                       .WithMany(v => v.Citas)
                       .HasForeignKey(c => c.VehiculoId)

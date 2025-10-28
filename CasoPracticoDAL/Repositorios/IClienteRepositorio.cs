@@ -9,8 +9,6 @@ namespace Casopractico.DAL.Interfaces
         Task<bool> AgregarAsync(Cliente cliente);
         Task<bool> ActualizarAsync(Cliente cliente);
         Task<bool> EliminarAsync(int id);
-
-        // Nuevo método para validar identificación única
         Task<Cliente?> BuscarPorIdentificacionAsync(string identificacion);
     }
 }
